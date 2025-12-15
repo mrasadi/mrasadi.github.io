@@ -11,8 +11,9 @@ redirect_from:
 
 Education
 ======
-* **M.Sc. in Computer Software Engineering**, Shiraz University, Iran — 2018. 
-  Thesis: *Parameter Estimation in Signal Transduction Networks of Biological Systems using Hybrid Metaheuristic Algorithms*
+* **M.Sc. in Computer Software Engineering**, Shiraz University, Iran — 2018.  
+
+Thesis: *Parameter Estimation in Signal Transduction Networks of Biological Systems using Hybrid Metaheuristic Algorithms*
 * **B.Sc. in Computer Software Engineering**, Quchan University of Technology, Iran — 2013. 
 * **Associate Degree in Computer Software Technology**, Kerman University of Technology, Iran — 2009. 
 
