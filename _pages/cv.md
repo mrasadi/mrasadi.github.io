@@ -11,10 +11,11 @@ redirect_from:
 
 Education
 ======
-* **M.Sc. in Computer Software Engineering**, Shiraz University, Iran — 2018.  
-
+* **M.Sc. in Computer Software Engineering**, Shiraz University, Iran — 2018.
 Thesis: *Parameter Estimation in Signal Transduction Networks of Biological Systems using Hybrid Metaheuristic Algorithms*
-* **B.Sc. in Computer Software Engineering**, Quchan University of Technology, Iran — 2013. 
+
+* **B.Sc. in Computer Software Engineering**, Quchan University of Technology, Iran — 2013.
+
 * **Associate Degree in Computer Software Technology**, Kerman University of Technology, Iran — 2009. 
 
 Research Interests
@@ -28,7 +29,8 @@ Research Interests
 Research Experience & Academic Projects
 ======
 * **MSc Thesis – Parameter Estimation in Biological Networks**  
-  Developed a hybrid Scatter Search + Genetic Algorithm framework for parameter estimation in nonlinear ODE-based signal transduction networks. Implemented a Python-based benchmarking suite for networks with up to 39 parameters, achieving improved accuracy and convergence compared to baseline methods.
+  Developed a hybrid Scatter Search + Genetic Algorithm framework for parameter estimation in nonlinear ODE-based signal transduction networks.
+  Implemented a Python-based benchmarking suite for networks with up to 39 parameters, achieving improved accuracy and convergence compared to baseline methods.
 
 * **Multi-Depot Vehicle Routing Problem (MDVRP)**  
   Designed a C# benchmarking framework integrating GRASP, Simulated Annealing, Tabu Search, Genetic Algorithms, and Ant Colony Optimization. Enabled comparative evaluation across multiple NP-hard instances with detailed convergence analysis.
