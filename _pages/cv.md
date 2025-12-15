@@ -11,15 +11,10 @@ redirect_from:
 
 Education
 ======
-* **M.Sc. in Computer Software Engineering**, Shiraz University, Iran — 2018  
-  GPA: 3.2 / 4.0  
-  Thesis: *Parameter Estimation in Signal Transduction Networks Using Hybrid Metaheuristics*
-
-* **B.Sc. in Computer Software Engineering**, Quchan University of Technology, Iran — 2013  
-  GPA: 2.8 / 4.0
-
-* **Associate Degree in Computer Software Technology**, Kerman University of Technology, Iran — 2009  
-  GPA: 3.2 / 4.0
+* **M.Sc. in Computer Software Engineering**, Shiraz University, Iran — 2018
+  Thesis: *Parameter Estimation in Signal Transduction Networks of Biological Systems using Hybrid Metaheuristic Algorithms*
+* **B.Sc. in Computer Software Engineering**, Quchan University of Technology, Iran — 2013
+* **Associate Degree in Computer Software Technology**, Kerman University of Technology, Iran — 2009
 
 Research Interests
 ======
