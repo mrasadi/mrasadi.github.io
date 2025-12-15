@@ -62,3 +62,7 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+
+<div class="cv-download-links">
+  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
+</div>

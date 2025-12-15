@@ -1,152 +1,163 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Mohammadreza Asadi",
+    "email": "mohreezaasadi@gmail.com",
+    "phone": "+98 936 028 4814",
+    "website": "https://mrasadi.github.io",
+    "summary": "Senior Software Engineer and cloud robotics developer with a strong academic background in optimization and metaheuristic algorithms. Experienced in designing scalable cloud-native systems for autonomous robotics, real-time telemetry processing, and applied combinatorial optimization.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "",
+      "countryCode": "IR",
       "region": ""
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "mrAsadi",
+        "url": "https://github.com/mrAsadi"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "mrasadi",
+        "url": "https://www.linkedin.com/in/mrasadi/"
       }
     ]
   },
-  "work": [],
+
+  "work": [
+    {
+      "company": "Intuitive Robotics",
+      "position": "Senior Software Engineer & Cloud Developer",
+      "website": "https://prod.intuitiverobotics.net/",
+      "startDate": "2020-09",
+      "endDate": "",
+      "summary": "Key contributor to the design and deployment of a cloud robotics platform for autonomous drone management.",
+      "highlights": [
+        "Designed cloud services for real-time drone telemetry using AWS (Kinesis, Firehose, Athena) and Grafana",
+        "Worked on distributed communication between drones, docking stations, and cloud infrastructure",
+        "Contributed to C++ modules for aligning live drone video streams with VR environments",
+        "Supported the first commercial deployment with operational docking stations"
+      ]
+    },
+    {
+      "company": "Rabinet",
+      "position": "Technical Lead",
+      "website": "https://rabinet.net/",
+      "startDate": "2020-03",
+      "endDate": "2020-09",
+      "summary": "Led technical execution of multiple commercial web projects.",
+      "highlights": [
+        "Managed cross-functional teams and sprint cycles",
+        "Oversaw Linux servers, deployments, and backend systems",
+        "Ensured alignment between design goals and system architecture"
+      ]
+    },
+    {
+      "company": "Various Companies",
+      "position": "Full Stack Developer (Part-Time)",
+      "website": "",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "Backend and full-stack development for tourism and pharmaceutical platforms.",
+      "highlights": [
+        "Developed backend services and microservices",
+        "Used Docker-based containerization and automated deployment pipelines"
+      ]
+    }
+  ],
+
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
+      "institution": "Shiraz University",
+      "area": "Computer Software Engineering",
+      "studyType": "MSc",
+      "startDate": "2015-09",
+      "endDate": "2018-09",
+      "gpa": 3.2,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
+      "institution": "Quchan University of Technology",
+      "area": "Computer Software Engineering",
+      "studyType": "BSc",
+      "startDate": "2010-02",
+      "endDate": "2013-02",
+      "gpa": 2.8,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "Kerman Technical and Vocational University",
+      "area": "Computer Software Technology",
+      "studyType": "Associate Degree",
+      "startDate": "2007-09",
+      "endDate": "2009-09",
+      "gpa": 3.2,
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": ["Python", "C#", "C++", "Git", "LaTeX"]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "keywords": ["AWS", "Azure", "Docker", "CI/CD", "GitHub Actions", "Azure DevOps"]
+    },
+    {
+      "name": "Optimization & Research",
+      "keywords": ["Genetic Algorithms", "GRASP", "Tabu Search", "Simulated Annealing", "ALNS", "Combinatorial Optimization"]
+    },
+    {
+      "name": "Systems & Data",
+      "keywords": ["Distributed Systems", "Real-time Telemetry", "IoT", "Streaming Data Pipelines"]
+    }
+  ],
+
+  "languages": [
+    {
+      "language": "Persian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional (IELTS Academic 7.0)"
+    }
+  ],
+
+  "interests": [
+    "Combinatorial Optimization",
+    "Decision Making under Uncertainty",
+    "UAV Path Planning and Scheduling",
+    "Cloud Robotics",
+    "Intelligent Systems"
+  ],
+
   "references": [],
-  "publications": [
-    {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+
+  "publications": [],
+
+  "presentations": [],
+
+  "teaching": [],
+
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
+      "name": "Hybrid Metaheuristic Framework for Parameter Estimation",
+      "category": "research",
+      "date": "2018",
+      "url": "",
+      "description": "Master’s thesis project on parameter estimation in biological signaling networks using a hybrid Scatter Search and Genetic Algorithm framework."
+    },
+    {
+      "name": "Metaheuristic Benchmarking Frameworks",
+      "category": "software",
       "date": "",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "C# and C++ benchmarking systems for MDVRP, vessel routing, and hotel selection problems using advanced metaheuristics."
     }
   ]
 }

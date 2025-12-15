@@ -1,56 +1,107 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Mohammadreza Asadi"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+## About Me
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am a Senior Software Engineer and Cloud Developer with a strong academic background in Computer Software Engineering. I hold an MSc degree from Shiraz University, where my research focused on combinatorial optimization and hybrid metaheuristic algorithms for solving complex inverse problems.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+My work lies at the intersection of **optimization, intelligent systems, and robotics**, combining rigorous algorithmic research with real-world system design and deployment. I am particularly interested in applying advanced optimization and decision-making methods to large-scale, distributed, and autonomous systems.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+---
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+## Research Interests
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+- Combinatorial Optimization  
+- Decision Making under Uncertainty  
+- Metaheuristic and Hybrid Optimization Algorithms  
+- UAV Path Planning and Scheduling  
+- Intelligent and Distributed Systems  
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+---
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## Education
 
-**Markdown generator**
+**MSc in Computer Software Engineering**  
+Shiraz University, Iran  
+*2015 – 2018*  
+GPA: 3.2 / 4  
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+**BSc in Computer Software Engineering**  
+Quchan University of Technology, Iran  
+*2010 – 2013*  
+GPA: 2.8 / 4  
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+**Associate Degree in Computer Software Technology**  
+Technical and Vocational University, Kerman, Iran  
+*2007 – 2009*  
+GPA: 3.2 / 4  
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+---
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Research Experience & Academic Projects
+
+**Master’s Thesis – Parameter Estimation in Signal Transduction Networks**  
+Designed and implemented a hybrid **Scatter Search + Genetic Algorithm** framework for parameter estimation in nonlinear ODE-based biological networks. Developed a Python-based benchmarking and simulation suite covering networks with up to 39 parameters, achieving improved accuracy, robustness, and convergence speed compared to baseline approaches.
+
+**Multi-Depot Vehicle Routing Problem (MDVRP)**  
+Architected a C# benchmarking framework for NP-hard MDVRP instances, integrating GRASP, Simulated Annealing, Tabu Search, Genetic Algorithms, and Ant Colony Optimization. Enabled systematic performance analysis and achieved high-quality, stable solutions across multiple instances.
+
+**Vessel Routing Problem**  
+Contributed to a C++ benchmark suite covering 240 routing instances. Implemented ALNS and GRASP methods, consistently achieving near-optimal or optimal solutions and strengthening large-scale algorithm evaluation expertise.
+
+**Orienting Problem with Hotel Selection**  
+Implemented and evaluated multiple metaheuristic approaches to balance cost, distance, and customer preferences under multi-objective constraints.
+
+---
+
+## Professional Experience
+
+**Senior Software Engineer & Cloud Developer**  
+*Intuitive Robotics – Full-time, Remote (Australia)*  
+*2020 – Present*  
+
+Contributed to the design and deployment of a cloud robotics platform for autonomous drone management. Worked on telemetry synchronization, real-time data pipelines, and cloud infrastructure using AWS services (Kinesis, Firehose, Athena) and Grafana. Participated in system-level integration across drones, docking stations, and cloud services, leading to the company’s first commercial deployment.
+
+**Technical Lead**  
+*Rabinet – Part-time, On-site (Iran)*  
+*2020*  
+
+Led a cross-functional team, managing backend systems, deployment pipelines, and project delivery for multiple commercial platforms.
+
+**Full Stack Developer (Part-time)**  
+*2018 – 2019*  
+
+Developed backend services and cloud-native systems using containerization and automated deployment workflows.
+
+---
+
+## Technical Skills
+
+- **Programming & Systems:** Python, C#, C++, Git, LaTeX  
+- **Cloud & DevOps:** AWS, Azure, Docker, GitHub Actions, Azure DevOps  
+- **Optimization & Research:** GA, ACO, GRASP, Tabu Search, Simulated Annealing, ALNS  
+- **Machine Learning:** Fundamentals, Edge ML for Robotics/IoT, Streaming Data Pipelines  
+
+---
+
+## Certifications
+
+**IELTS Academic (Computer-Based)** – Overall Score: **7.0**  
+Listening: 6.5 · Reading: 7.5 · Writing: 6.5 · Speaking: 6.5  
+
+**Deep Learning Specialization (Coursera)**  
+- Neural Networks and Deep Learning  
+- Improving Deep Neural Networks: Hyperparameter Tuning  
+
+---
+
+## Contact
+
+I am open to academic collaboration, research-oriented positions, and PhD opportunities.  
+You can reach me via email or connect with me on GitHub and LinkedIn.

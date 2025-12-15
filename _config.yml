@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Mohammadreza Asadi/ Personal Website"
+title                    : "Mohammadreza Asadi"
 title_separator          : "-"
 name                     : &name "Mohammadreza"
 description              : &description "Mohammadreza's academic and industrial portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Software Engineer"
   location         : "Iran"
   employer         : "Shiraz University"
   uri              : # URL
