@@ -36,7 +36,7 @@ I am especially motivated by problems where **algorithmic design, system constra
 - Background in modeling nonlinear systems and benchmarking optimization algorithms  
 - Industry experience in cloud-native architectures, IoT telemetry, and robotics platforms  
 
-Further details about my education, projects, and professional experience are available in the **CV** section.
+Further details about my education, projects, and professional experience are available in the **[CV]({{ base_path }}/cv/)** section.
 
 ---
 
