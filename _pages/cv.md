@@ -79,30 +79,6 @@ Certifications
 * **Neural Networks and Deep Learning**, Coursera (2023)  
 * **Improving Deep Neural Networks: Hyperparameter Tuning**, Coursera (2023)
 
-Publications
-======
-<ul>
-{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}
-</ul>
-
-Talks
-======
-<ul>
-{% for post in site.talks reversed %}
-  {% include archive-single-talk-cv.html %}
-{% endfor %}
-</ul>
-
-Teaching
-======
-<ul>
-{% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}
-</ul>
-
 Service and Leadership
 ======
 * Technical leadership in early-stage startup environments  
